@@ -1,0 +1,25 @@
+{
+  "name": "findmypast_code_challenge",
+  "version": "1.0.0",
+  "description": "Code challenge for FindMyPast. Algorithm that returns a multiplication table of N prime numbers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BetaBeard/findmypast_code_challenge.git"
+  },
+  "keywords": [
+    "node.js",
+    "algorithm"
+  ],
+  "author": "Rafael Quesada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BetaBeard/findmypast_code_challenge/issues"
+  },
+  "homepage": "https://github.com/BetaBeard/findmypast_code_challenge#readme",
+  "dependencies": {
+  }
+}
