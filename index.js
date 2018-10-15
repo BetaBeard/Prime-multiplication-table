@@ -21,14 +21,11 @@ var rl = readline.createInterface({
 //Request N to the user. N is the quantity of prime numbers to use
 rl.question('Please enter the prime numbers to use ', (value) => {
   console.time("Processing time");
-  var n = primeManipulation.isValid(value, (err) =>{
-    if(err){
-      console.log("The value introduced is not valid. It has to be an integer greater than 0");
-      rl.close();
-    }
-  });
+  var n = primeManipulation.isValid(value);
+  var primesArray = primeManipulation.getPrimesArray(n);
+
+  table.drawTable(primesArray);
 
   rl.close();
-
   console.timeEnd("Processing time");
 });
