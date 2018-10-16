@@ -1,4 +1,4 @@
-# findmypast_code_challenge
+# Prime multiplication table
 Given a N input, show a multiplication table of the first N prime numbers
 
 ## How to use
