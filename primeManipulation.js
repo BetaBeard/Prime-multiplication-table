@@ -13,7 +13,7 @@ lib.isValid = (n)=>{
   //We parse the input to make sure is a number
   var parsedN = parseInt(n);
   //We check the input does not have neither "." nor "," to rule out floating numbers
-  var isNotFloat = n.indexOf('.') == -1 && n.indexOf(',') == -1;
+  var isNotFloat = n.toString().indexOf('.') == -1 && n.toString().indexOf(',') == -1;
 
   //If n is valid,a number, not floating and greater than 0 the input is correct
   if(n && parsedN && isNotFloat && parsedN > 0){
